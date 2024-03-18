@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width:1025px;
+    margin:0 auto;
+}
+.header{
+    background:#fff;
+    height:100px;
+}
+.content{
+    display:flex;
+    justify-content:center;
+    margin:40px 120px;
+    font-family: Microsoft JhengHei;;
+}
+.myName img{
+    width:300px;
+    height:450px;
+    border-radius:5px;
+    margin-right:80px;
+}
+.personData h1{
+    font-size:36px;
+    font-weight:900;
+    margin-top:60px;
+    margin-bottom:15px;
+    padding:15px;
+    text-align:center;
+    border-bottom: 4px solid #5B5B5B;
+}
+.personData img{
+    margin-right:10px;
+    width:30px;
+    height:30px;
+}
+.personData li{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+.personData h2{
+    margin-top:20px;
+    font-size:30px;
+    font-weight:700;
+    padding:20px;
+    text-align:center;
+    border-top:4px solid #5B5B5B;
+}   
+.personData p{
+    font-size:18px;
+    font-weight:600;
+    line-height:25px;
+}
+.exp{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.exp h2{
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:20px;
+}
+.exp li{
+    display:flex;
+    font-size:18px;
+    font-weight:600;
+    line-height:25px;
+    margin-bottom:10px
+}
+.exp .work{
+    margin-left:20px;
+    padding:20px;
+    border-left:4px #CA8EFF solid;
+    border-image: linear-gradient(to bottom, #003060, #578aef) 1;
+}
+    .exp h3{
+    font-size:24px;
+    padding-bottom:2px
+}
