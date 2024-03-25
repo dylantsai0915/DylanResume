@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan個人履歷</title>
     <link rel="stylesheet" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+    <script src="all.js"></script>
 </head>
 <body>
+    <div class="header">
+        <div class="myLogo"><a href="#">Dylan Tsai</a></div>
+        <ul>
+            <li><a href="#content">ABOUT</a></li>
+            <li><a href="#exp">EXPERIENCE</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#skill">PROJECT</a></li>
+        </ul>
+    </div>
     <div class="wrap">
-        <div class="header">
-        </div>
-        <div class="content">
+
+        <div class="content" id="content">
             <div class="myName">
                 <img src="image/person all.jpg" alt="個人生活照">
             </div>
@@ -26,7 +36,7 @@
                 <p>大家好！我是蔡慶隆，畢業於國立臺灣科技大學企業管理系，畢業後於新創科技公司任職財務專員一年，因緣際會下接觸到前端領域，因而開始鑽研前端領域並朝前端工程師前進！</p>
             </div>
         </div>
-        <div class="exp">
+        <div class="exp" id="exp">
             <h2>工作經歷</h2> 
             <ul>
                 <li class="year">2023-2024
@@ -59,9 +69,60 @@
                 </li>                
             </ul>
         </div>
-        <div class="skill">
-            
+        <div class="skill" id="skill">
+            <h2>前端技能</h2>
+            <ul>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="html圖示">
+                    <h3>HTML</h3>
+                    <div class="progress1"></div>            
+                    <span>中階</span>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/128/2/2148.png" alt="css圖示">
+                    <h3>CSS</h3>
+                    <div class="progress2"></div>                  
+                    <span>中階</span>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/128/721/721671.png" alt="js圖示">
+                    <h3>Javascript</h3>
+                    <div class="progress3"></div>                
+                    <span>初階</span>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/128/1183/1183672.png" alt="react圖示">
+                    <h3>React</h3>
+                    <div class="progress4"></div>
+                    <span class="learn">學習中</span>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" alt="github圖示">
+                    <h3>Github</h3>
+                    <div class="progress5"></div>
+                    <span>初階</span>
+                </li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2>Project</h2>
+            <ul>
+                <li><a href="#" class="btn_html">HTML/CSS</a></li>
+                <li><a href="#" class="btn_js">Javascript</a></li>
+            </ul>
+            <div class="project1">
+                <a href="https://codepen.io/Dylan-Tsai/pen/VwNaQxR" target="_blank">名片設計</a>
+                <a href="https://codepen.io/Dylan-Tsai/pen/xxeEZgx" target="_blank">切版作品</a>
+                <a href="https://codepen.io/Dylan-Tsai/pen/VwNaaKV" target="_blank">訂單摘要切版</a>
+            </div>
+            <div class="project2">
+                <a href="https://codepen.io/Dylan-Tsai/pen/JjVoZdQ" target="_blank">To Do List</a>
+                <a href="https://codepen.io/Dylan-Tsai/pen/abxzrdx" target="_blank">農產品比價網</a>
+            </div>
         </div>
     </div>
+    <div class="footer">
+        <a href="#">©2024 Ching-Lung, Tsai</a>
+    </div>
 </body>
-</html>s
+</html>
