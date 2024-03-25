@@ -44,6 +44,9 @@ table {
 *,*::after*::before{
     box-sizing: border-box;
 }
+body{
+    background:#F0F0F0;
+}
 .wrap{
     max-width:1024px;
     margin:0 auto;
@@ -52,7 +55,7 @@ table {
 .header{
     display: flex;
     justify-content:space-between;
-    background:#F0F0F0;
+    background:#E0E0E0;
 }
 .header .myLogo a{
     padding-top:10px;
@@ -340,7 +343,7 @@ table {
 }
 .footer{
     margin-top:20px;
-    background:#F0F0F0;
+    background:#E0E0E0;
 }
 .footer a{
     display:block;
