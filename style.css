@@ -338,7 +338,10 @@ body{
     font-weight:700;
     color:gray;
 }
-.project1 a:hover,.project2 a:hover,.project1 a:focus,.project2 a:focus{
+.project1 a:hover,.project2 a:hover{
+    color:#844200;
+}
+.project1 a:focus,.project2 a:focus{
     color:#004B97;
 }
 .footer{
