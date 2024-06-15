@@ -265,7 +265,7 @@ body{
     border-radius:50%;
     mask: radial-gradient(transparent 40%, #fff 40%, #fff 0);
     background:conic-gradient(#ffc20e 0, #ffc20e 
-    0%, #dbe0e3 0%, #dbe0e3);
+    30%, #dbe0e3 30%, #dbe0e3);
     margin:10px auto;
 }  
 .progress5{
@@ -274,7 +274,7 @@ body{
     border-radius:50%;
     mask: radial-gradient(transparent 40%, #fff 40%, #fff 0);
     background:conic-gradient(#ffc20e 0, #ffc20e 
-    30%, #dbe0e3 30%, #dbe0e3);
+    50%, #dbe0e3 30%, #dbe0e3);
     margin:10px auto;
 }  
 .skill h3{
